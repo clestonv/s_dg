@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://duckduckgo.com/",
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity": false
+
+}
