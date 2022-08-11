@@ -4,17 +4,13 @@ Funcionalidade: Busca no DuckDuckGo
     Como usuário, desejo usar o DuckDuckGo 
     Para achar noticias sobre BitCoin
 
-Cenario: Buscar digitando e usando ENTER
+Esquema do Cenario: Buscar digitando e usando <operacao>
     Dado eu acesso DuckDuckGo
-    E devo buscar "Biticoin" e usar "ENTER"
-    Entao devo ter mais de "10" resultados
+    E devo buscar "<palavra>" e usar "<operacao>"
+    Entao devo ter mais de "<quantidade>" resultados
 
-Cenario: Buscar digitando e usando LUPA
-    Dado eu acesso DuckDuckGo
-    E devo buscar "Biticoin" e usar "LUPA"
-    Entao devo ter mais de "10" resultados
-
-Cenario: Buscar digitando e usando FORMULARIO
-    Dado eu acesso DuckDuckGo
-    E devo buscar "Biticoin News" e usar "FORMULARIO"
-    Entao devo ter mais de "10" resultados
+    Exemplos: 
+    | operacao        | palavra     | quantidade |
+    | ENTER           | BitCoin     | 10         |
+    | LUPA            | BitCoin     | 10         |
+    | FORMULARIO      | BitCoin new | 10         |
