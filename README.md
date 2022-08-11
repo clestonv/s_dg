@@ -7,10 +7,9 @@
 
 ## 📋 Sobre
 
-**Teste** foi criado para uma vaga de QA PL
+**Teste** foi criado para uma vaga de QA
 
 ## 🚀 Tecnologias
-
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 - [Npm](https://www.npmjs.com/)
@@ -24,6 +23,11 @@
 - [Docker](https://www.docker.com/)
 - [Git](https://git-scm.com/)
 
+## 🔍 Fontes
+
+- [Samuel Agilizei](https://www.youtube.com/watch?v=mfZfhp6Ql8c) - Cucumber
+- [Walmyr TaT](https://talkingabouttesting.com/) - Cypress
+- [dailypoison](https://www.youtube.com/watch?v=h8wd0V0Yes8&t=538s) - Docker
 
 ## 🎮 Como usar
 ```
