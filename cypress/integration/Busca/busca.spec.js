@@ -5,7 +5,7 @@ Given('eu acesso DuckDuckGo', () => {
 })
 
 And("devo buscar {string} e usar {string}", (palavra) => {
-	cy.get('#search_form_input_homepage')
+	cy.get('#searchbox_input')
   .should('be.visible')
     .type(`${palavra}{enter}`);
   
@@ -16,15 +16,15 @@ Then("devo ter mais de {string} resultados", (resultado) => {
   cy.get(':nth-child(4) > .zcm__link')
     .should('be.visible')
     .click({force: true})
-
-  cy.get('body .nrn-react-div')
+  cy.wait(500)
+  cy.get('.result__body')
     .its('length')
     .should('be.gt', number);
 
 });
 
 And("devo buscar {string} e usando LUPA", (palavra) => {
-  cy.get('#search_form_input_homepage')
+  cy.get('#searchbox_input')
   .should('be.visible')
     .type(`${palavra}`);
   cy.get('#search_button_homepage')

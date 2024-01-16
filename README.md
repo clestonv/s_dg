@@ -38,7 +38,7 @@ $ git clone https://github.com/clestonv/s_dg.git
 $ cd s_dg
 
 3. Instalando as dependências 
-$ npm install
+$ npm -i --force
 
 4. Executando Modo Headless
 $ npx cypress run
